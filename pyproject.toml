@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "git-internals-study-session"
+version = "1.0.0"
+description = "Small demo of Git internals for an internal Farfetch study session"
+authors = ["Eric Fulmer <2952996+EFulmer@users.noreply.github.com>"]
+license = "Proprietary"
+readme = "README.md"
+packages = [{include = "git_internals_study_session"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+jupyter = "^1.0.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
